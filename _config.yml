@@ -8,7 +8,7 @@ subtitle:
 description:
 keywords:
 author: John Doe
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -97,3 +97,56 @@ neat_js:
   compress:
   exclude:
     - '*.min.js' 
+    
+# config
+config:
+  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+# 导航菜单
+menu:
+  Home: . 
+  Archives: archives # 归档
+  Categories: categories # 分类
+  Tags: tags # 标签
+  Repository: repository # github repositories
+  Books: books     # 书单
+  Links: links # 友链
+  About: about # 关于
+
+# 导航菜单图标（font awesome）
+menu_icons:
+  enable: true # 是否启用菜单图标
+  home: icon-home-fill
+  archives: icon-archives-fill
+  categories: icon-folder
+  tags: icon-tags
+  repository: icon-project
+  books: icon-book-fill
+  links: icon-friendship
+  about: icon-cup-fill
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search
+# Share
+# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+share:
+  enable: true  # 是否启用分享
+  sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
+  mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
+# Comment
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+comment:
+  type: livere # 启用哪种评论系统
+  disqus:  # enter disqus shortname here
+  youyan: 
+    uid: *** # enter youyan uid 
+  livere:
+    uid: *** # enter livere uid
+  gitment:
+    githubID: username
+    repo: username.github.io
+    ClientID: ***
+    ClientSecret: ***
+    lazy: false
