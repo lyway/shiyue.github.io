@@ -132,21 +132,21 @@ neat_js:
     
 # config
 config:
-  skin: # ä¸»é¢˜é¢œè‰² theme-black theme-blue theme-green theme-purple
-# å¯¼èˆªèœå•
+  skin: # Ö÷ÌâÑÕÉ« theme-black theme-blue theme-green theme-purple
+# µ¼º½²Ëµ¥
 menu:
   Home: . 
-  Archives: archives # å½’æ¡£
-  Categories: categories # åˆ†ç±»
-  Tags: tags # æ ‡ç­¾
+  Archives: archives # ¹éµµ
+  Categories: categories # ·ÖÀà
+  Tags: tags # ±êÇ©
   Repository: repository # github repositories
-  Books: books     # ä¹¦å•
-  Links: links # å‹é“¾
-  About: about # å…³äº
+  Books: books     # Êéµ¥
+  Links: links # ÓÑÁ´
+  About: about # ¹ØÓÚ
 
-# å¯¼èˆªèœå•å›¾æ ‡ï¼ˆfont awesomeï¼‰
+# µ¼º½²Ëµ¥Í¼±ê£¨font awesome£©
 menu_icons:
-  enable: true # æ˜¯å¦å¯ç”¨èœå•å›¾æ ‡
+  enable: true # ÊÇ·ñÆôÓÃ²Ëµ¥Í¼±ê
   home: icon-home-fill
   archives: icon-archives-fill
   categories: icon-folder
@@ -163,14 +163,14 @@ search:
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
 share:
-  enable: true  # æ˜¯å¦å¯ç”¨åˆ†äº«
-  sites: weibo,qq,wechat,facebook,twitter  # PCç«¯æ˜¾ç¤ºçš„åˆ†äº«å›¾æ ‡
-  mobile_sites: weibo,qq,qzone  # ç§»åŠ¨ç«¯æ˜¾ç¤ºçš„åˆ†äº«å›¾æ ‡
+  enable: true  # ÊÇ·ñÆôÓÃ·ÖÏí
+  sites: weibo,qq,wechat,facebook,twitter  # PC¶ËÏÔÊ¾µÄ·ÖÏíÍ¼±ê
+  mobile_sites: weibo,qq,qzone  # ÒÆ¶¯¶ËÏÔÊ¾µÄ·ÖÏíÍ¼±ê
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: livere # å¯ç”¨å“ªç§è¯„è®ºç³»ç»Ÿ
+  type: livere # ÆôÓÃÄÄÖÖÆÀÂÛÏµÍ³
   disqus:  # enter disqus shortname here
   youyan: 
     uid: *** # enter youyan uid 
@@ -183,6 +183,7 @@ comment:
     ClientSecret: ***
     lazy: false
     - '*.min.js' 
+<<<<<<< HEAD
 Â© 2021 GitHub, Inc.
 Terms
 Privacy
@@ -196,3 +197,5 @@ Training
 Blog
 About
 Loading complete
+=======
+>>>>>>> ee16dfcccc36980362259cc769c0a5ef7de0bfa2
